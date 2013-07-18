@@ -16,7 +16,7 @@ contenteditable for multiple selections, or an 'omnibox'
 
 
 
-## Usages
+## Usage
 In parent view, initialize autocomplete view with
 these options.
 
