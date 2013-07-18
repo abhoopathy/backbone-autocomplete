@@ -1,8 +1,5 @@
 # Autocomplete View
 
-# TODO
-- Mouse events
-- Make inheritable
 
 ## Description
 
@@ -23,42 +20,47 @@ contenteditable for multiple selections, or an 'omnibox'
 In parent view, initialize autocomplete view with
 these options.
 
-el: The list element which contains list items
+    el: The list element which contains list items
 
-collection: The collection to populate the
-autocomplete list with.
+    collection: The collection to populate the
+    autocomplete list with.
 
-template:
+    template:
 
-    listItemTemplate: Template for each list
-    item, as a function (Jade)
+        listItemTemplate: Template for each list
+        item, as a function (Jade)
 
-    locals: A function that takes a model and
-    returns a locals object that can be passed
-    to the template
+        locals: A function that takes a model and
+        returns a locals object that can be passed
+        to the template
 
-getLabel: A function which takes a model, and
-returns value that should be returned on item
-select for display in input.
+    getLabel: A function which takes a model, and
+    returns value that should be returned on item
+    select for display in input.
 
-matchOn: A function which takes a model, and
-returns a value that you want the autocomplete
-matcher to match on
+    matchOn: A function which takes a model, and
+    returns a value that you want the autocomplete
+    matcher to match on
 
-handlers:
+    handlers:
 
-    itemSelectedHandler: Handler function for
-    item select event. Takes a model.
+        itemSelectedHandler: Handler function for
+        item select event. Takes a model.
 
-    itemChosenHandler: Handler function for
-    item choose event. Takes a model.
+        itemChosenHandler: Handler function for
+        item choose event. Takes a model.
 
 
 ## Public Methods
 
-updateTerm(term): Takes a term, filters
-collection on term using provided
-matchOn(model) method, and updates the list.
+    updateTerm(term): Takes a term, filters
+    collection on term using provided
+    matchOn(model) method, and updates the list.
 
-unChooseItem(id): Takes a model id, restores
-that model to the original collection.
+    unChooseItem(id): Takes a model id, restores
+    that model to the original collection.
+
+
+## Todo
+- Mouse events
+- Make inheritable
