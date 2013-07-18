@@ -1,9 +1,7 @@
 define [
-    'config'
     'jquery'
     'backbone'
 ], (
-    Config
     $
     Backbone
 ) ->
