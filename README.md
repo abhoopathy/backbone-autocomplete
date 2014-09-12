@@ -1,4 +1,8 @@
-[![forthebadge](http://forthebadge.com/badges/mom-made-pizza-rolls.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/badges/ages-12.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/badges/does-not-contain-msg.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
+
 # Autocomplete View
 
 
